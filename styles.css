@@ -1,7 +1,8 @@
 /* 
     This is a CSS comment. Please add your name to this file below:
     
-    NAME: 
+    NAME: Kavyaa Ramesh
+
 */
 /* -------------------------------------------------- */
 /* 
@@ -334,6 +335,15 @@ footer{
         - add the large box shadow
 */
 /* ADD SELECTOR AND STYLES HERE */
+#section2 a{
+    display: block;
+    text-decoration: none;
+    text-align:center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 50%;
+    box-shadow: var(--box-shadow-lg);
+}
 
 /* For the first link in this section: */
 #section2 a:first-of-type{
@@ -377,6 +387,10 @@ footer{
             - left: 60px
 */
 #section2 div > p:last-of-type{
+    background-color: var(--teal-rgba);
+    border: 4px dashed var(--dk-gray);
+    margin: 18px 60px 32px 8px;
+    padding: 32px 8px 16px 60px;
     
 }
 
@@ -387,13 +401,17 @@ footer{
 
 /* To change the styles on each of those links when you're hovering over them with a mouse */
 /* 
-    TO DO: add styles to the first link on hover in this section that will:
+    add styles to the first link on hover in this section that will:
         - make the background the dk-blue color
         - make the text white
         - change the color of the border to the lt-blue color
         - add the small box shadow, using the variable in the root
 */
 #section2 a:first-of-type:hover{
+    background-color: var(--dk-blue);
+    color: var(--white);
+    border-color: var(--lt-blue);
+    box-shadow: var(--box-shadow-sm);
 
 }
 
@@ -418,6 +436,11 @@ footer{
         - add the small filter drop shadow from the CSS variables in the root
 */
 #section3 img{
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    filter: var(--filter-shadow-sm);
     
 }
 
